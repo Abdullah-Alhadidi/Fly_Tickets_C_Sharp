@@ -51,26 +51,28 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.MintCream;
-            this.label1.Location = new System.Drawing.Point(245, 9);
+            this.label1.Location = new System.Drawing.Point(218, 7);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(266, 96);
+            this.label1.Size = new System.Drawing.Size(223, 80);
             this.label1.TabIndex = 0;
             this.label1.Text = "Log In";
             // 
             // TXBUserNameEmail
             // 
             this.TXBUserNameEmail.Font = new System.Drawing.Font("Microsoft YaHei UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TXBUserNameEmail.Location = new System.Drawing.Point(12, 252);
+            this.TXBUserNameEmail.Location = new System.Drawing.Point(11, 202);
+            this.TXBUserNameEmail.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.TXBUserNameEmail.Name = "TXBUserNameEmail";
-            this.TXBUserNameEmail.Size = new System.Drawing.Size(715, 53);
+            this.TXBUserNameEmail.Size = new System.Drawing.Size(636, 46);
             this.TXBUserNameEmail.TabIndex = 0;
             // 
             // TXBPassWord
             // 
             this.TXBPassWord.Font = new System.Drawing.Font("Microsoft YaHei UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TXBPassWord.Location = new System.Drawing.Point(12, 388);
+            this.TXBPassWord.Location = new System.Drawing.Point(11, 310);
+            this.TXBPassWord.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.TXBPassWord.Name = "TXBPassWord";
-            this.TXBPassWord.Size = new System.Drawing.Size(715, 53);
+            this.TXBPassWord.Size = new System.Drawing.Size(636, 46);
             this.TXBPassWord.TabIndex = 1;
             // 
             // label2
@@ -79,9 +81,9 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.MintCream;
-            this.label2.Location = new System.Drawing.Point(12, 206);
+            this.label2.Location = new System.Drawing.Point(11, 165);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(218, 31);
+            this.label2.Size = new System.Drawing.Size(183, 27);
             this.label2.TabIndex = 3;
             this.label2.Text = "UserName/Email";
             // 
@@ -91,9 +93,9 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.MintCream;
-            this.label3.Location = new System.Drawing.Point(6, 337);
+            this.label3.Location = new System.Drawing.Point(5, 270);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(136, 31);
+            this.label3.Size = new System.Drawing.Size(113, 27);
             this.label3.TabIndex = 4;
             this.label3.Text = "PassWord";
             // 
@@ -101,9 +103,10 @@
             // 
             this.BTNSignIn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BTNSignIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNSignIn.Location = new System.Drawing.Point(414, 671);
+            this.BTNSignIn.Location = new System.Drawing.Point(368, 537);
+            this.BTNSignIn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BTNSignIn.Name = "BTNSignIn";
-            this.BTNSignIn.Size = new System.Drawing.Size(243, 86);
+            this.BTNSignIn.Size = new System.Drawing.Size(216, 69);
             this.BTNSignIn.TabIndex = 2;
             this.BTNSignIn.Text = "Sign IN";
             this.BTNSignIn.UseVisualStyleBackColor = true;
@@ -119,9 +122,9 @@
             this.LBLCreateAccount.Cursor = System.Windows.Forms.Cursors.Hand;
             this.LBLCreateAccount.Font = new System.Drawing.Font("MS Reference Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBLCreateAccount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.LBLCreateAccount.Location = new System.Drawing.Point(23, 476);
+            this.LBLCreateAccount.Location = new System.Drawing.Point(20, 381);
             this.LBLCreateAccount.Name = "LBLCreateAccount";
-            this.LBLCreateAccount.Size = new System.Drawing.Size(717, 38);
+            this.LBLCreateAccount.Size = new System.Drawing.Size(603, 32);
             this.LBLCreateAccount.TabIndex = 6;
             this.LBLCreateAccount.Text = "You don\'t have an account creat a new one";
             this.LBLCreateAccount.Click += new System.EventHandler(this.LBLCreateAccount_Click);
@@ -131,11 +134,11 @@
             this.LBLIssues.BackColor = System.Drawing.Color.Transparent;
             this.LBLIssues.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBLIssues.ForeColor = System.Drawing.Color.Red;
-            this.LBLIssues.Location = new System.Drawing.Point(12, 122);
+            this.LBLIssues.Location = new System.Drawing.Point(11, 98);
             this.LBLIssues.Name = "LBLIssues";
-            this.LBLIssues.Size = new System.Drawing.Size(743, 49);
+            this.LBLIssues.Size = new System.Drawing.Size(660, 39);
             this.LBLIssues.TabIndex = 7;
-            this.LBLIssues.Text = "BookingKind/PassWord Shouldn\'t Be Empty.";
+            this.LBLIssues.Text = "UserName/PassWord Shouldn\'t Be Empty.";
             this.LBLIssues.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.LBLIssues.Visible = false;
             // 
@@ -145,9 +148,9 @@
             this.LBLResetUserName.Cursor = System.Windows.Forms.Cursors.Hand;
             this.LBLResetUserName.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBLResetUserName.ForeColor = System.Drawing.Color.Lime;
-            this.LBLResetUserName.Location = new System.Drawing.Point(223, 524);
+            this.LBLResetUserName.Location = new System.Drawing.Point(198, 419);
             this.LBLResetUserName.Name = "LBLResetUserName";
-            this.LBLResetUserName.Size = new System.Drawing.Size(321, 29);
+            this.LBLResetUserName.Size = new System.Drawing.Size(274, 26);
             this.LBLResetUserName.TabIndex = 9;
             this.LBLResetUserName.Text = "Forget/Reset UserName";
             this.LBLResetUserName.Click += new System.EventHandler(this.LBLResetUserName_Click);
@@ -158,9 +161,9 @@
             this.LBLResetPassWord.Cursor = System.Windows.Forms.Cursors.Hand;
             this.LBLResetPassWord.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBLResetPassWord.ForeColor = System.Drawing.Color.Lime;
-            this.LBLResetPassWord.Location = new System.Drawing.Point(224, 563);
+            this.LBLResetPassWord.Location = new System.Drawing.Point(199, 450);
             this.LBLResetPassWord.Name = "LBLResetPassWord";
-            this.LBLResetPassWord.Size = new System.Drawing.Size(315, 29);
+            this.LBLResetPassWord.Size = new System.Drawing.Size(267, 26);
             this.LBLResetPassWord.TabIndex = 10;
             this.LBLResetPassWord.Text = "Forget/Reset PassWord";
             this.LBLResetPassWord.Click += new System.EventHandler(this.LBLResetPassWord_Click);
@@ -169,9 +172,10 @@
             // 
             this.BTNExit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BTNExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNExit.Location = new System.Drawing.Point(120, 671);
+            this.BTNExit.Location = new System.Drawing.Point(107, 537);
+            this.BTNExit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BTNExit.Name = "BTNExit";
-            this.BTNExit.Size = new System.Drawing.Size(243, 86);
+            this.BTNExit.Size = new System.Drawing.Size(216, 69);
             this.BTNExit.TabIndex = 3;
             this.BTNExit.Text = "Exit";
             this.BTNExit.UseVisualStyleBackColor = true;
@@ -179,10 +183,10 @@
             // 
             // LogIn
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(767, 800);
+            this.ClientSize = new System.Drawing.Size(682, 640);
             this.Controls.Add(this.BTNExit);
             this.Controls.Add(this.LBLResetPassWord);
             this.Controls.Add(this.LBLResetUserName);
@@ -195,6 +199,7 @@
             this.Controls.Add(this.TXBUserNameEmail);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "LogIn";
             this.Text = "Log In";
             this.Load += new System.EventHandler(this.LogIn_Load);
